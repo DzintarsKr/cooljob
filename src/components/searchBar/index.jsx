@@ -3,9 +3,9 @@ import searchIcon from "../../assets/icons/search.svg";
 
 function SearchBar() {
     return (
-        <div>
-            <div>
-                <span></span>
+        <div className={styles.searchBar}>
+            <div className={styles.inputGroup}>
+                <span className={styles.icon}>{searchIcon}</span>
                 <input type="text" placeholder="Должность или компания" />
             </div>
             <div>
