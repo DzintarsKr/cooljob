@@ -1,5 +1,6 @@
 import "./App.css";
 import Home from "./pages/home";
+
 function App() {
   return (
     <>
@@ -7,4 +8,5 @@ function App() {
     </>
   );
 }
+
 export default App;

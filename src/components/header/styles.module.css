@@ -1,0 +1,52 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: rgba(0, 0, 0, 0.85);
+  width: 100%;
+  padding: 30px 100px;
+  background-color: rgba(205, 231, 255, 1);
+}
+
+.navSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 110px;
+}
+
+.navSection > img {
+  width: 112px;
+  height: 40px;
+}
+
+nav > ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 54px;
+  font-size: 15px;
+}
+
+.authSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.authSection > a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.authSection > .login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* text-align: center; */
+  background-color: white;
+  width: 65px;
+  height: 44px;
+}
