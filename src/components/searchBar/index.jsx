@@ -1,4 +1,5 @@
 import styles from "./styles.module.css";
+import searchIcon from "../../assets/icons/search.svg";
 
 function SearchBar() {
     return (
@@ -13,7 +14,7 @@ function SearchBar() {
             </div>
             <button>Поиск</button>
         </div>
-    )
+    );
     
 }
 
