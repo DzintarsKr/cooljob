@@ -1,14 +1,14 @@
 import styles from "./styles.module.css";
 import Header from "../../components/header";
-//import CategoryCardList from "../../components/categoryCardList";
 import Main from "../../components/main";
+import Footer from "../../components/footer";
 
 function Home() {
   return (
     <div className={styles.homeContainer}>
       <Header />
-      <Main /> 
-      {/* Footer */}
+      <Main />
+      <Footer />
     </div>
   );
 }

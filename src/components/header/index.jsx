@@ -5,11 +5,17 @@ function Header() {
   return (
     <header className={styles.header}>
       <section className={styles.navSection}>
-        <img src={cooljobIcon} alt="cooljob_icon" />
+        <a href="#">
+          <img src={cooljobIcon} alt="cooljob_icon" />
+        </a>
         <nav>
           <ul>
-            <li>Поиск работы</li>
-            <li>Поиск стартапов</li>
+            <li>
+              <a href="#">Поиск работы</a>
+            </li>
+            <li>
+              <a href="#">Поиск стартапов</a>
+            </li>
           </ul>
         </nav>
       </section>

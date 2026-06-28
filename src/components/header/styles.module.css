@@ -1,4 +1,4 @@
-.header {
+/*.header {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -46,7 +46,90 @@ nav > ul {
   align-items: center;
   justify-content: center;
   /* text-align: center; */
-  background-color: white;
+ /* background-color: white;
   width: 65px;
   height: 44px;
+}
+*/
+.header {
+  width: 100%;
+  height: 56px;
+  padding: 0 64px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: #cfe6fb;
+}
+
+.navSection {
+  display: flex;
+  align-items: center;
+  gap: 70px;
+}
+
+.navSection img {
+  width: 74px;
+  height: auto;
+  display: block;
+}
+
+.navSection nav ul {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.navSection nav a {
+  font-size: 12px;
+  font-weight: 400;
+  color: #1f2d3d;
+  text-decoration: none;
+}
+
+.navSection nav a:hover {
+  color: #0f6ec7;
+}
+
+.authSection {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.authSection a {
+  font-size: 12px;
+  font-weight: 400;
+  color: #1f2d3d;
+  text-decoration: none;
+}
+
+.login {
+  width: 58px;
+  height: 36px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: none;
+  background-color: #ffffff;
+
+  font-size: 12px;
+  font-weight: 400;
+  color: #1f2d3d;
+  text-decoration: none;
+
+  cursor: pointer;
+}
+
+.login:hover {
+  background-color: #1f2d3d;
+  color: #ffffff;
 }

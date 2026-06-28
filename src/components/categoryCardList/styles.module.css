@@ -1,0 +1,87 @@
+.categories {
+  width: 100%;
+  background: #e5f4ff;
+  padding: 70px 70px 80px;
+}
+
+.categories h2 {
+  margin: 0 0 55px;
+
+  font-size: 34px;
+  line-height: 1.2;
+  font-weight: 700;
+
+  color: #233255;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: repeat(5, 270px);
+  gap: 28px 92px;
+}
+
+.moreCard {
+  width: 270px;
+  height: 190px;
+
+  padding: 58px 34px;
+
+  border: 2px solid #9eadbb;
+  background: transparent;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 22px;
+
+  cursor: pointer;
+}
+
+.arrow {
+  font-size: 42px;
+  line-height: 1;
+  color: #4b5563;
+}
+
+.moreCard p {
+  margin: 0;
+
+  font-size: 19px;
+  line-height: 1.35;
+  color: #4b5563;
+}
+
+@media (max-width: 1500px) {
+  .list {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 1100px) {
+  .list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 800px) {
+  .categories {
+    padding: 50px 24px;
+  }
+
+  .list {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
+
+@media (max-width: 520px) {
+  .list {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 800px) {
+  .moreCard {
+    width: 100%;
+  }
+}
